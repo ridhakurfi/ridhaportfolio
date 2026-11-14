@@ -1,6 +1,4 @@
 
-// ================= MOBILE NAVIGATION =================
-
 const menuToggle = document.getElementById("menu-toggle");
 const navLinks = document.getElementById("nav-links");
 
@@ -16,8 +14,6 @@ menuToggle.addEventListener("click", function () {
 
 });
 
-
-// Close mobile menu after clicking a navigation link
 
 const navigationItems = document.querySelectorAll(".nav-links a");
 
@@ -36,7 +32,6 @@ navigationItems.forEach(function (link) {
 });
 
 
-// ================= SCROLL REVEAL =================
 
 const revealElements = document.querySelectorAll(".reveal");
 
@@ -68,7 +63,6 @@ revealElements.forEach(function (element) {
 });
 
 
-// ================= AUTOMATIC FOOTER YEAR =================
 
 const yearElement = document.getElementById("current-year");
 
